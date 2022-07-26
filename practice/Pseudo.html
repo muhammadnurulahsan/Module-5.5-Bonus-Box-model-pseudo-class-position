@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: royalblue;
+      }
+      h1:hover {
+        color: aqua;
+        background-color: chocolate;
+      }
+      input {
+        display: block;
+        margin: 20px;
+      }
+      .middle-person:focus {
+        color: brown;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      a:visited {
+        color: blue;
+      }
+      li:first-child {
+        color: rgb(0, 247, 255);
+      }
+      li:nth-child(2n) {
+        color: coral;
+      }
+      li:last-child {
+        color: yellowgreen;
+      }
+      li:nth-child(2n + 1) {
+        background-color: cornflowerblue;
+      }
+      h3::before {
+        content: "Hello ";
+        background-color: crimson;
+      }
+      .special::after {
+        content: " Gelo";
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Normal.</h1>
+
+    <input type="text" />
+    <input class="middle-person" type="text" />
+    <input type="text" />
+
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://github.com/">Github</a>
+    <br />
+
+    <h3>Middle Size Header-1</h3>
+    <h3 class="special">Middle Size Header-2</h3>
+    <h3>Middle Size Header-3</h3>
+    <h3 class="special">Middle Size Header-4</h3>
+    <h3>Middle Size Header-5</h3>
+    <h3 class="special">Middle Size Header-6</h3>
+
+    <ul>
+      <li>Alia</li>
+      <li>Dalia</li>
+      <li>Kalia</li>
+      <li>Calia</li>
+      <li>Jalai</li>
+      <li>Chalaia</li>
+      <li>Maria</li>
+      <li>Faria</li>
+      <li>Kariya</li>
+    </ul>
+  </body>
+</html>
